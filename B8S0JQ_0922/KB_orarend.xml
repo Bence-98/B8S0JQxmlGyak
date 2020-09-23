@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE orarend SYSTEM "orarend.dtd">
+
+<orarend>
+
+	<ora id="1"  tipus="elmélet és gyakorlat">
+		<targy>TeX</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>13</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>2. előadó</helyszin>
+		<oktato>Dr. Olajos Péter</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="2"  tipus="elmélet">
+		<targy>Web tech.</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>15</tol>
+			<ig>17</ig>
+		</idopont>
+		<helyszin>Inf. 103</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="3"  tipus="gyakorlat">
+		<targy>Web tech.</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>17</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>Inf 15</helyszin>
+		<oktato>Sátán Ádám</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="4"  tipus="elmélet">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>XXXVII. előadóé-</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="5"  tipus="gyakorlat">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>Inf. 101</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="6"  tipus="elmélet">
+		<targy>Angol</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>A1 mf. 11</helyszin>
+		<oktato>Pásztor Krisztina</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="7"  tipus="elmélet">
+		<targy>Szoftech</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>A1 2.em 218</helyszin>
+		<oktato>Dr. Mileff Péter</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="8"  tipus="gyakorlat">
+		<targy>Szoftech</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>A1 2. em 218</helyszin>
+		<oktato>Szűcs Miklós</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="9"  tipus="elmélet és gyakorlat">
+		<targy>Vállalati inf. rendsz. fejl.</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>16</tol>
+			<ig>20</ig>
+		</idopont>
+		<helyszin>Inf. 202</helyszin>
+		<oktato>Dr. Sasvári Péter</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="10"  tipus="elmélet">
+		<targy>Valszám</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>A1 2.em 218</helyszin>
+		<oktato>Dr. Fegyverneki Sándor</oktato>
+		<szak>PI</szak>
+	</ora>
+	<ora id="11"  tipus="gyakorlat">
+		<targy>Valszám</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>16</tol>
+			<ig>18</ig>
+		</idopont>
+		<helyszin>A1 mf. 14</helyszin>
+		<oktato>Dr. Glavosits Tamás	</oktato>
+		<szak>PI</szak>
+	</ora>
+</orarend>
+
+
+
