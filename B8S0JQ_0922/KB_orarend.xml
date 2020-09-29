@@ -3,7 +3,6 @@
 <!DOCTYPE orarend SYSTEM "orarend.dtd">
 
 <orarend>
-
 	<ora id="1"  tipus="elmélet és gyakorlat">
 		<targy>TeX</targy>
 		<idopont>
@@ -126,6 +125,3 @@
 		<szak>PI</szak>
 	</ora>
 </orarend>
-
-
-
