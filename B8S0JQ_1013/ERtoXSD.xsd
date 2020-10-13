@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="fo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="A" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="B" type="xs:string" />
+							<xs:element name="C" type="xs:string" />
+						</xs:sequence>
+						<xs:attribute name="a1" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="B" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:attribute name="b1" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="C" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:attribute name="c1" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+
+
+				<xs:element name="AC" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:attribute name="ac1" type="xs:int" />
+						<xs:attribute name="ac2" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+
+		</xs:complexType>
+
+		<xs:key name="K1">
+			<xs:selector xpath="A" />
+			<xs:field xpath="@c1"></xs:field>
+		</xs:key>
+
+		<xs:key name="K2">
+			<xs:selector xpath="B" />
+			<xs:field xpath="@b1"></xs:field>
+		</xs:key>
+
+		<xs:keyref name="K11" refer="K1">
+			<xs:selector xpath="AC"></xs:selector>
+			<xs:field xpath="@AC1"></xs:field>
+		</xs:keyref>
+
+		<xs:keyref name="K21" refer="K2">
+			<xs:selector xpath="BC"></xs:selector>
+			<xs:field xpath="@BC1"></xs:field>
+		</xs:keyref>
+
+	</xs:element>	
+
+</xs:schema>

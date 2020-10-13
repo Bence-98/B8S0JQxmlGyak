@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo>
+  <A a1="123">
+    <B>valami1</B>
+    <C>valami2</C>
+  </A>
+  <B b1="123" />
+  <C c1="123" />
+  <AC ac1="123" ac2="123" />
+</fo>
