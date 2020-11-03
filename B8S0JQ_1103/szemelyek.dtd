@@ -1,0 +1,16 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT szemelyek (szemely)+>
+<!ATTLIST szemelyek xmlns CDATA #FIXED ''>
+
+<!ELEMENT szemely (nev,kor?,varos)>
+<!ATTLIST szemely xmlns CDATA #FIXED '' id CDATA #REQUIRED>
+
+<!ELEMENT nev (#PCDATA)>
+<!ATTLIST nev xmlns CDATA #FIXED ''>
+
+<!ELEMENT kor (#PCDATA)>
+<!ATTLIST kor xmlns CDATA #FIXED ''>
+
+<!ELEMENT varos (#PCDATA)>
+<!ATTLIST varos xmlns CDATA #FIXED ''>

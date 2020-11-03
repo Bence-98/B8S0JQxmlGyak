@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="szemelyek">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="szemely"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="szemely">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nev"/>
+        <xs:element minOccurs="0" ref="kor"/>
+        <xs:element ref="varos"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nev" type="xs:NCName"/>
+  <xs:element name="kor" type="xs:integer"/>
+  <xs:element name="varos" type="xs:NCName"/>
+</xs:schema>
