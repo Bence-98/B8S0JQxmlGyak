@@ -17,7 +17,7 @@ public class DomParserB8S0JQ {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			
-	        Document doc = dBuilder.parse("D:\KB_B8S0JQ\KB_B8S0JQ\student.xml");
+	        Document doc = dBuilder.parse("D:\\KB_B8S0JQ\\KB_B8S0JQ\\student.xml");
 	        
 	        doc.getDocumentElement().normalize();
 	        
