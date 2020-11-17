@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osztaly>
+	<alkalmazott id="001">
+		<keresztnev>Istvan</keresztnev>
+		<vezeteknek>Arvai</vezeteknek>
+		<becenev>Arva</becenev>
+		<fizetes>60000</fizetes>
+	</alkalmazott>
+		<alkalmazott id="024">
+		<keresztnev>Sara</keresztnev>
+		<vezeteknek>Keszeg</vezeteknek>
+		<becenev>keszi</becenev>
+		<fizetes>45000</fizetes>
+	</alkalmazott>
+		<alkalmazott id="056">
+		<keresztnev>Gabor</keresztnev>
+		<vezeteknek>Simon</vezeteknek>
+		<becenev>simi</becenev>
+		<fizetes>20000</fizetes>
+	</alkalmazott>
+</osztaly>
