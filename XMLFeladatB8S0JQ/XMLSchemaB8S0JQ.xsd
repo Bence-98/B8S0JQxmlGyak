@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Adatbazis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Olvaso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="Olvasojegy"/>
+              <xs:element type="xs:string" name="Nev"/>
+              <xs:element name="Cim">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:short" name="Irsz"/>
+                    <xs:element type="xs:string" name="Varos"/>
+                    <xs:element type="xs:string" name="Utca"/>
+                    <xs:element type="xs:int" name="Hazsz"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Konyvtar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="ISBN"/>
+              <xs:element type="xs:int" name="Mennyiseg"/>
+              <xs:element type="xs:string" name="Konyvtar_neve"/>
+              <xs:element type="xs:string" name="Reszleg"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Konyvek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="ISBN"/>
+              <xs:element type="xs:string" name="Cim"/>
+              <xs:element type="xs:string" name="Szerzo"/>
+              <xs:element type="xs:short" name="KiadoID"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kiad">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="Kiadas_datuma"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kiadok">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Nev"/>
+              <xs:element type="xs:short" name="KiadoID"/>
+              <xs:element name="Cim">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:short" name="Irsz"/>
+                    <xs:element type="xs:string" name="Varos"/>
+                    <xs:element type="xs:string" name="Utca"/>
+                    <xs:element type="xs:int" name="Hazsz"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

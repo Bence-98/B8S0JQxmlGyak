@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Adatbazis>
+	<Olvaso>
+		<Olvasojegy>1</Olvasojegy>
+		<Nev>Tóth Ferenc</Nev>
+		<Cim>
+			<Irsz>3501</Irsz>
+			<Varos>Miskolc</Varos>
+			<Utca>Kossuth utca</Utca>
+			<Hazsz>12</Hazsz>
+		</Cim>
+	</Olvaso>
+	<Konyvtar>
+		<ISBN>12345678</ISBN>
+		<Mennyiseg>3</Mennyiseg>
+		<Konyvtar_neve>Móra Ferenc</Konyvtar_neve>
+		<Reszleg>Horror</Reszleg>
+	</Konyvtar>
+	<Konyvek>
+		<ISBN>12345678</ISBN>
+		<Cim>A ragyogás</Cim>
+		<Szerzo>Stephen King</Szerzo>
+		<KiadoID>3456</KiadoID>
+	</Konyvek>
+	<Kiad>
+		<Kiadas_datuma>1991</Kiadas_datuma>
+	</Kiad>
+	<Kiadok>
+		<Nev>Árkádia</Nev>
+		<KiadoID>978</KiadoID>
+		<Cim>
+			<Irsz>1051</Irsz>
+			<Varos>Budapest</Varos>
+			<Utca>Rákóczi út</Utca>
+			<Hazsz>123</Hazsz>
+		</Cim>
+	</Kiadok>
+</Adatbazis>
