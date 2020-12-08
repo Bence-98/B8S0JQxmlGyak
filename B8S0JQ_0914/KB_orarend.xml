@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	<hetfo>
+		<ora>
+			<targy>TeX</targy>
+			<idopont>13-16</idopont>
+			<helyszin>2. előadó</helyszin>
+			<oktato>Dr. Olajos Péter</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Web tech.</targy>
+			<idopont>15-17</idopont>
+			<helyszin>Inf. 103</helyszin>
+			<oktato>Agárdi Anita</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Web tech. gyak</targy>
+			<idopont>17-19</idopont>
+			<helyszin>Inf 15</helyszin>
+			<oktato>Sátán Ádám</oktato>
+			<szak>PI</szak>
+		</ora>
+	</hetfo>
+	<kedd>
+		<ora>
+			<targy>Adatkezelés XML-ben</targy>
+			<idopont>12-14</idopont>
+			<helyszin>XXXVII. előadóé-</helyszin>
+			<oktato>Dr. Bednarik László</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Adatkezelés XML-ben gyak.</targy>
+			<idopont>14-16</idopont>
+			<helyszin>Inf. 101</helyszin>
+			<oktato>Dr. Bednarik László</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Angol</targy>
+			<idopont>16-18</idopont>
+			<helyszin>A1 mf. 11</helyszin>
+			<oktato>Pásztor Krisztina</oktato>
+			<szak>PI</szak>
+		</ora>
+	</kedd>
+	<szerda>
+		<ora>
+			<targy>Szoftech</targy>
+			<idopont>8-10</idopont>
+			<helyszin>A1 2.em 218</helyszin>
+			<oktato>Dr. Mileff Péter</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Szoftech gyak.</targy>
+			<idopont>10-12</idopont>
+			<helyszin>A1 2. em 218</helyszin>
+			<oktato>Szűcs Miklós</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Vállalati inf. rendsz. fejl.</targy>
+			<idopont>16-20</idopont>
+			<helyszin>Inf. 202</helyszin>
+			<oktato>Dr. Sasvári Péter</oktato>
+			<szak>PI</szak>
+		</ora>
+	</szerda>
+	<csutortok>
+		<ora>
+			<targy>Valszám</targy>
+			<idopont>8-10</idopont>
+			<helyszin>A1 2.em 218</helyszin>
+			<oktato>Dr. Fegyverneki Sándor</oktato>
+			<szak>PI</szak>
+		</ora>
+		<ora>
+			<targy>Valszám gyak</targy>
+			<idopont>16-18</idopont>
+			<helyszin>A1 mf. 14</helyszin>
+			<oktato>Dr. Glavosits Tamás</oktato>
+			<szak>PI</szak>
+		</ora>
+	</csutortok>
+
+</orarend>
+
+
+
