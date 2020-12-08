@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Adatbazis>
-	<Olvaso>
+<Adatbazis  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaB8S0JQ.xsd">
+	<Olvaso id="1">
 		<Olvasojegy>1</Olvasojegy>
 		<Nev>Tóth Ferenc</Nev>
 		<Cim>
@@ -10,29 +10,64 @@
 			<Hazsz>12</Hazsz>
 		</Cim>
 	</Olvaso>
-	<Konyvtar>
+	<Olvaso id="2">
+		<Olvasojegy>2</Olvasojegy>
+		<Nev>Molnár Éva</Nev>
+		<Cim>
+			<Irsz>3502</Irsz>
+			<Varos>Miskolc</Varos>
+			<Utca>Széchenyi utca</Utca>
+			<Hazsz>56</Hazsz>
+		</Cim>
+	</Olvaso>
+	<Konyvtar id="1">
 		<ISBN>12345678</ISBN>
 		<Mennyiseg>3</Mennyiseg>
 		<Konyvtar_neve>Móra Ferenc</Konyvtar_neve>
 		<Reszleg>Horror</Reszleg>
 	</Konyvtar>
-	<Konyvek>
+	<Konyvtar id="2">
+		<ISBN>87654321</ISBN>
+		<Mennyiseg>4</Mennyiseg>
+		<Konyvtar_neve>Egyetemi könyvtár</Konyvtar_neve>
+		<Reszleg>Szakirodalom</Reszleg>
+	</Konyvtar>
+	<Konyvek id="1">
 		<ISBN>12345678</ISBN>
-		<Cim>A ragyogás</Cim>
+		<KCim>A ragyogás</KCim>
 		<Szerzo>Stephen King</Szerzo>
 		<KiadoID>3456</KiadoID>
 	</Konyvek>
-	<Kiad>
+	<Konyvek id="2">
+		<ISBN>87654321</ISBN>
+		<KCim>Az XML kézikönyv</KCim>
+		<Szerzo>N. Bradley</Szerzo>
+		<KiadoID>9786</KiadoID>
+	</Konyvek>
+	<Kiad id="1">
 		<Kiadas_datuma>1991</Kiadas_datuma>
 	</Kiad>
-	<Kiadok>
+	<Kiad id="2">
+		<Kiadas_datuma>2000</Kiadas_datuma>
+	</Kiad>
+	<Kiadok id="1">
 		<Nev>Árkádia</Nev>
-		<KiadoID>978</KiadoID>
-		<Cim>
-			<Irsz>1051</Irsz>
-			<Varos>Budapest</Varos>
-			<Utca>Rákóczi út</Utca>
-			<Hazsz>123</Hazsz>
-		</Cim>
+		<KiadoID>3456</KiadoID>
+		<KCim>
+			<KIrsz>1051</KIrsz>
+			<KVaros>Budapest</KVaros>
+			<KUtca>Rákóczi út</KUtca>
+			<KHazsz>123</KHazsz>
+		</KCim>
+	</Kiadok>
+	<Kiadok id="2">
+		<Nev>SZAK</Nev>
+		<KiadoID>9786</KiadoID>
+		<KCim>
+			<KIrsz>3515</KIrsz>
+			<KVaros>Miskolc</KVaros>
+			<KUtca>Egyetemváros</KUtca>
+			<KHazsz>0000</KHazsz>
+		</KCim>
 	</Kiadok>
 </Adatbazis>
